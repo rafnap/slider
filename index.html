@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<script type="text/javascript" src="jquery-3.0.0.min.js"></script>
+	<script src="slider.js"></script>
+	<style type="text/css">
+		/*.slider li {
+			display: none;
+		}
+		.slider li.active {
+			display: inline-block;
+		}
+		.slider li.arrows {
+			display: inline-block;
+		}*/
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="main center-block">
+			<ul class="slider list-inline">
+				<li class="active">
+			   		<img src="img1.jpg">
+			   	</li>
+			   	<li>
+			   		<img src="img2.jpg">
+			   	</li>
+			   	<li>
+			   		<img src="img3.jpg">
+			   	</li>
+		   </ul>
+		</div>
+	</div>
+</body>
+<script>
+	$(document).ready(function(){
+    $('.slider').slider();
+
+	});
+</script>
+</html>
